@@ -1,12 +1,12 @@
 # settings.py
 
 # Path settings
-HEALTHY_PLANTS_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Raw_Healthy'
-INFECTED_PLANTS_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Infected_Raw'
-PROCESSED_HEALTHY_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Pre-processed_Healthy'
-PROCESSED_INFECTED_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Pre-processed_Infected'
-FEATURES_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/other/Features'  #features as files
-MODEL_DIR = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/other/Modles'  # save models
+HEALTHY_PLANTS_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Raw_Healthy'
+INFECTED_PLANTS_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Infected_Raw'
+PROCESSED_HEALTHY_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Pre-processed_Healthy'
+PROCESSED_INFECTED_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Pre-processed_Infected'
+FEATURES_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/other/Features'  #features as files
+MODEL_DIR = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/other/Modles'  # save models
 
 # Ensure that the necessary directories exist
 import os

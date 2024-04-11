@@ -33,7 +33,7 @@ evaluate_classifier(classifier, X_test, y_test)
 
 # If you want to save the trained model, use joblib or pickle to serialize it
 import joblib
-joblib.dump(classifier, '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/other')
+joblib.dump(classifier, '~/Documents/GitHub/Computer-Graphics-Automated-Detection/other')
 
 # To load the model later:
 # classifier = joblib.load('/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/other')

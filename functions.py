@@ -27,10 +27,10 @@ def preprocess_dataset(image_directory, processed_directory):
             cv2.imwrite(processed_image_path, processed_image)
 
 # Define your paths
-healthy_plants_directory = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Raw_Healthy'
-infected_plants_directory = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Infected_Raw'
-processed_healthy_directory = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Pre-processed_Healthy'
-processed_infected_directory = '/Users/hernerdez/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Pre-processed_Infected'
+healthy_plants_directory = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Raw_Healthy'
+infected_plants_directory = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Infected_Raw'
+processed_healthy_directory = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Healthy Plants/Pre-processed_Healthy'
+processed_infected_directory = '~/Documents/GitHub/Computer-Graphics-Automated-Detection/Infected Plants/Pre-processed_Infected'
 
 # Create directories for processed images if they don't exist
 os.makedirs(processed_healthy_directory, exist_ok=True)
